@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixLetterWordChallenge.ConsoleApp", "SixLetterWordChallenge.ConsoleApp\SixLetterWordChallenge.ConsoleApp.csproj", "{6141CDAE-D4C0-4F2A-9996-A9AD770578FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixLetterWordChallenge.Domain", "SixLetterWordChallenge.Domain\SixLetterWordChallenge.Domain.csproj", "{AEE0545A-BB8A-4692-826F-012E930FD887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Hosts", "1 - Hosts", "{FE532414-86A0-403C-9932-075DFC849709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{F7BAED09-A193-4758-909F-D614D64A3A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{17764015-C49B-49CA-94B1-C80AA323455A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixLetterWordChallenge.Application", "SixLetterWordChallenge.Application\SixLetterWordChallenge.Application.csproj", "{FA64C8E8-5605-4DAF-AFEA-5F3709580F4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixLetterWordChallenge.Domain.Tests", "SixLetterWordChallenge.Domain.Tests\SixLetterWordChallenge.Domain.Tests.csproj", "{84124812-856A-47B3-A99D-F74EBB3C3281}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D37224BD-3D3C-4BE1-898A-66592BF57F93}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6141CDAE-D4C0-4F2A-9996-A9AD770578FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6141CDAE-D4C0-4F2A-9996-A9AD770578FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6141CDAE-D4C0-4F2A-9996-A9AD770578FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6141CDAE-D4C0-4F2A-9996-A9AD770578FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE0545A-BB8A-4692-826F-012E930FD887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE0545A-BB8A-4692-826F-012E930FD887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE0545A-BB8A-4692-826F-012E930FD887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE0545A-BB8A-4692-826F-012E930FD887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA64C8E8-5605-4DAF-AFEA-5F3709580F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA64C8E8-5605-4DAF-AFEA-5F3709580F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA64C8E8-5605-4DAF-AFEA-5F3709580F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA64C8E8-5605-4DAF-AFEA-5F3709580F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84124812-856A-47B3-A99D-F74EBB3C3281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84124812-856A-47B3-A99D-F74EBB3C3281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84124812-856A-47B3-A99D-F74EBB3C3281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84124812-856A-47B3-A99D-F74EBB3C3281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6141CDAE-D4C0-4F2A-9996-A9AD770578FE} = {FE532414-86A0-403C-9932-075DFC849709}
+		{AEE0545A-BB8A-4692-826F-012E930FD887} = {17764015-C49B-49CA-94B1-C80AA323455A}
+		{FA64C8E8-5605-4DAF-AFEA-5F3709580F4E} = {F7BAED09-A193-4758-909F-D614D64A3A7A}
+		{84124812-856A-47B3-A99D-F74EBB3C3281} = {17764015-C49B-49CA-94B1-C80AA323455A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9B1B42C-6F24-4CC2-8B13-B1E66E7946BC}
+	EndGlobalSection
+EndGlobal
